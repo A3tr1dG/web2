@@ -1,0 +1,34 @@
+
+@import './testimonios.less';
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.testimonio {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.testimonio-item {
+    background-color: #f8f8f8;
+    border-left: 4px solid #6a0dad;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.mensaje {
+    font-size: 1.1rem;
+}
+
+.autor {
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+.fecha {
+    font-size: 0.9rem;
+    color: #555;
+}
